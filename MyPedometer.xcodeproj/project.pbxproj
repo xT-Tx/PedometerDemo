@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222CF5CFE393D091380FDFAB /* libPods-MyPedometer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDEDD06A69EB46A00524D31 /* libPods-MyPedometer.a */; };
+		9C6C609E213D544300E3A273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C609D213D544300E3A273 /* AppDelegate.swift */; };
+		9C6C60A0213D544300E3A273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C609F213D544300E3A273 /* ViewController.swift */; };
+		9C6C60A3213D544300E3A273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C60A1213D544300E3A273 /* Main.storyboard */; };
+		9C6C60A5213D544400E3A273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C60A4213D544400E3A273 /* Assets.xcassets */; };
+		9C6C60A8213D544400E3A273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C60A6213D544400E3A273 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FA4ADB057BDA4614F8940A2 /* Pods-MyPedometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPedometer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPedometer/Pods-MyPedometer.release.xcconfig"; sourceTree = "<group>"; };
+		9BDEDD06A69EB46A00524D31 /* libPods-MyPedometer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyPedometer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6C609A213D544300E3A273 /* MyPedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6C609D213D544300E3A273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C6C609F213D544300E3A273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C6C60A2213D544300E3A273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C6C60A4213D544400E3A273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C6C60A7213D544400E3A273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C6C60A9213D544400E3A273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D318A387F5972732F11F7D6E /* Pods-MyPedometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPedometer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPedometer/Pods-MyPedometer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C6C6097213D544300E3A273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222CF5CFE393D091380FDFAB /* libPods-MyPedometer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341181CB0BA390EC5885A5AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BDEDD06A69EB46A00524D31 /* libPods-MyPedometer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C6C6091213D544300E3A273 = {
+			isa = PBXGroup;
+			children = (
+				9C6C609C213D544300E3A273 /* MyPedometer */,
+				9C6C609B213D544300E3A273 /* Products */,
+				A15D4417AEB4F137DCB76068 /* Pods */,
+				341181CB0BA390EC5885A5AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C6C609B213D544300E3A273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6C609A213D544300E3A273 /* MyPedometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C6C609C213D544300E3A273 /* MyPedometer */ = {
+			isa = PBXGroup;
+			children = (
+				9C6C609D213D544300E3A273 /* AppDelegate.swift */,
+				9C6C609F213D544300E3A273 /* ViewController.swift */,
+				9C6C60A1213D544300E3A273 /* Main.storyboard */,
+				9C6C60A4213D544400E3A273 /* Assets.xcassets */,
+				9C6C60A6213D544400E3A273 /* LaunchScreen.storyboard */,
+				9C6C60A9213D544400E3A273 /* Info.plist */,
+			);
+			path = MyPedometer;
+			sourceTree = "<group>";
+		};
+		A15D4417AEB4F137DCB76068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D318A387F5972732F11F7D6E /* Pods-MyPedometer.debug.xcconfig */,
+				3FA4ADB057BDA4614F8940A2 /* Pods-MyPedometer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C6C6099213D544300E3A273 /* MyPedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6C60AC213D544400E3A273 /* Build configuration list for PBXNativeTarget "MyPedometer" */;
+			buildPhases = (
+				A5998E674948BA4B387068AE /* [CP] Check Pods Manifest.lock */,
+				9C6C6096213D544300E3A273 /* Sources */,
+				9C6C6097213D544300E3A273 /* Frameworks */,
+				9C6C6098213D544300E3A273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPedometer;
+			productName = MyPedometer;
+			productReference = 9C6C609A213D544300E3A273 /* MyPedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C6C6092213D544300E3A273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = nickjiang;
+				TargetAttributes = {
+					9C6C6099213D544300E3A273 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C6C6095213D544300E3A273 /* Build configuration list for PBXProject "MyPedometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C6C6091213D544300E3A273;
+			productRefGroup = 9C6C609B213D544300E3A273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C6C6099213D544300E3A273 /* MyPedometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C6C6098213D544300E3A273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6C60A8213D544400E3A273 /* LaunchScreen.storyboard in Resources */,
+				9C6C60A5213D544400E3A273 /* Assets.xcassets in Resources */,
+				9C6C60A3213D544300E3A273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5998E674948BA4B387068AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPedometer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C6C6096213D544300E3A273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6C60A0213D544300E3A273 /* ViewController.swift in Sources */,
+				9C6C609E213D544300E3A273 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C6C60A1213D544300E3A273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6C60A2213D544300E3A273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6C60A6213D544400E3A273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6C60A7213D544400E3A273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C6C60AA213D544400E3A273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C6C60AB213D544400E3A273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C6C60AD213D544400E3A273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D318A387F5972732F11F7D6E /* Pods-MyPedometer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickjiang.MyPedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C6C60AE213D544400E3A273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA4ADB057BDA4614F8940A2 /* Pods-MyPedometer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPedometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickjiang.MyPedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C6C6095213D544300E3A273 /* Build configuration list for PBXProject "MyPedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6C60AA213D544400E3A273 /* Debug */,
+				9C6C60AB213D544400E3A273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6C60AC213D544400E3A273 /* Build configuration list for PBXNativeTarget "MyPedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6C60AD213D544400E3A273 /* Debug */,
+				9C6C60AE213D544400E3A273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C6C6092213D544300E3A273 /* Project object */;
+}

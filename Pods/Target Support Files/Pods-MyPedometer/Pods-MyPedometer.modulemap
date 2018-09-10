@@ -1,0 +1,6 @@
+module Pods_MyPedometer {
+  umbrella header "Pods-MyPedometer-umbrella.h"
+
+  export *
+  module * { export * }
+}
