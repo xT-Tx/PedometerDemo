@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,59 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyPedometer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today you have walked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AG7-yb-imW">
+                                <rect key="frame" x="78" y="101" width="219" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 steps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ler-Ki-uMh">
+                                <rect key="frame" x="159" y="167" width="57" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olK-Ma-Civ">
+                                <rect key="frame" x="78" y="213" width="30" height="30"/>
+                                <state key="normal" title="Cal"/>
+                                <connections>
+                                    <action selector="transferStepToCalorie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NUo-Rv-w3Z"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dmy-T5-0HO">
+                                <rect key="frame" x="200" y="213" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="pJj-Ww-kPf"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ler-Ki-uMh" firstAttribute="top" secondItem="AG7-yb-imW" secondAttribute="bottom" constant="39.5" id="4PG-aQ-ZPg"/>
+                            <constraint firstItem="AG7-yb-imW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="81" id="7hV-BK-Chj"/>
+                            <constraint firstItem="olK-Ma-Civ" firstAttribute="top" secondItem="ler-Ki-uMh" secondAttribute="bottom" constant="25" id="DhU-wm-A4c"/>
+                            <constraint firstItem="dmy-T5-0HO" firstAttribute="top" secondItem="ler-Ki-uMh" secondAttribute="bottom" constant="25" id="UJ2-9l-Hr1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dmy-T5-0HO" secondAttribute="trailing" constant="78" id="Vxe-32-VF7"/>
+                            <constraint firstItem="olK-Ma-Civ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="iLE-Vq-MEv"/>
+                            <constraint firstItem="ler-Ki-uMh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iTc-CX-wXW"/>
+                            <constraint firstItem="AG7-yb-imW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jCR-DB-4PX"/>
+                            <constraint firstItem="dmy-T5-0HO" firstAttribute="leading" secondItem="olK-Ma-Civ" secondAttribute="trailing" constant="92" id="vBg-v5-CwU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="calorieButton" destination="olK-Ma-Civ" id="BXn-bi-ArS"/>
+                        <outlet property="calorieLabel" destination="dmy-T5-0HO" id="duz-bj-rSR"/>
+                        <outlet property="stepCountLabel" destination="ler-Ki-uMh" id="ka6-t0-mPk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
